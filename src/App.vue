@@ -7,11 +7,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import product from './service/products/ProductsService'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    product.index()
   }
 }
 </script>
