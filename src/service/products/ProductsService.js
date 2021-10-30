@@ -1,5 +1,5 @@
 class ProductService {
-    // async index() { }
+    async index() { }
 
     // async show(id) { }
 
