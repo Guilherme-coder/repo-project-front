@@ -1,7 +1,7 @@
 <template>
   <div class="navBody">
      <div class="buttonArea">
-       <IconButton/>
+       <IconButton :src="'../assets/icons/user.svg'" :alt="'perfil'"/>
      </div>
 
      <div class="buttonArea">

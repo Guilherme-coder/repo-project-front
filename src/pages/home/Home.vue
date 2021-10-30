@@ -1,10 +1,13 @@
 <template>
-  <h1>massa</h1>
+  <NavBar/>
 </template>
 
 <script>
+import NavBar from '@/components/NavBar.vue'
 export default {
-
+  components:{
+    NavBar
+  }
 }
 </script>
 
