@@ -1,25 +1,35 @@
 <template>
-  <section class="navBody">
-      <button 
-      style="width: 5vw;
-      height: 5vw;
-      background-color: #42b983;
-      color:white;
-      border: none;
-      border-radius: 8px;">massa</button>
-  </section>
+  <div class="navBody">
+     <div class="buttonArea">
+       <IconButton/>
+     </div>
+
+     <div class="buttonArea">
+       <IconButton/>
+     </div>
+     
+     <div class="buttonArea">
+       <IconButton/>
+     </div>
+  </div>
 </template>
 
 <script>
+import IconButton from './IconButton.vue'
 export default {
-
+  components:{
+    IconButton
+  }
 }
 </script>
 
 <style>
   .navBody{
-    background-color: #121d27 ;
+    background-color: var(--dark-blue) ;
     width: 10vw;
     height: 100vh;
+  }
+  .buttonArea{
+    border-radius: 8px;
   }
 </style>

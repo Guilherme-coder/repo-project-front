@@ -1,21 +1,16 @@
 <template>
   <div id="app">
-    <navBar />
+    <NavBar />
   </div>
 </template>
 
 <script>
-import NavBar from './components/navBar.vue'
-import product from './service/products/ProductsService'
-
+import NavBar from './components/NavBar.vue'
 export default {
   name: 'App',
   components: {
     NavBar
   },
-  mounted() {
-    product.index()
-  }
 }
 </script>
 
