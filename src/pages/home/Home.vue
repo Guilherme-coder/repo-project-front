@@ -1,15 +1,18 @@
 <template>
   <div class="page">
     <NavBar/>
+    <SearchBar/>
   </div>
-  
+
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
+import NavBar from '@/components/NavBar'
+import SearchBar from '@/components/SearchBar'
 export default {
   components:{
-    NavBar
+    NavBar,
+    SearchBar
   }
 }
 </script>
