@@ -1,5 +1,8 @@
 <template>
-  <NavBar/>
+  <div class="page">
+    <NavBar/>
+  </div>
+  
 </template>
 
 <script>
@@ -12,5 +15,7 @@ export default {
 </script>
 
 <style>
-
+  .page{
+    background-color: #333333;
+  }
 </style>
