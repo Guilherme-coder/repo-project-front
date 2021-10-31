@@ -1,0 +1,9 @@
+* {
+    --dark-blue: #121d27;
+    --dark-gold: #b4937b;
+    --std-white: #fefaff;
+    --pure-green: #00ff00;
+    --hover-cyan: #007d7d4d;
+    margin: 0;
+    padding: 0;
+}
