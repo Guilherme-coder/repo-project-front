@@ -13,7 +13,7 @@
      <div class="buttonArea">
        <IconButton :src="'fas fa-shopping-cart'"/>
      </div>
-     
+
      <div class="buttonArea">
        <IconButton :src="'far fa-edit'"/>
      </div>
@@ -31,6 +31,7 @@ export default {
 
 <style>
   .navBody{
+    position: fixed;
     width: 10vw;
     height: 100vh;
     background-color: var(--dark-blue);
