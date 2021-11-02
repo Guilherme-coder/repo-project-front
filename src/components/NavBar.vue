@@ -1,21 +1,21 @@
 <template>
   <div class="navBody">
     <div class="buttonArea">
-       <IconButton>
+       <IconButton :href="'/perfil'">
          <img width="80px" height="80px" src="https://suap.ifrn.edu.br/media/alunos/271617.CpwksVKeiFpP.jpg" alt="massa">
        </IconButton>
     </div>
 
      <div class="buttonArea">
-       <IconButton :src="'far fa-user-circle'"/>
+       <IconButton :src="'far fa-user-circle'" :href="'google.com'"/>
      </div>
 
      <div class="buttonArea">
-       <IconButton :src="'fas fa-shopping-cart'"/>
+       <IconButton :src="'fas fa-shopping-cart'" :href="'lugarNenhum'"/>
      </div>
 
      <div class="buttonArea">
-       <IconButton :src="'far fa-edit'"/>
+       <IconButton :src="'far fa-edit'" :href="'casaDoCoragem'"/>
      </div>
   </div>
 </template>

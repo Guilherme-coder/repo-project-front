@@ -1,14 +1,15 @@
 <template>
-  <button id="iconButton">
+  <a id="iconButton" :href="this.href">
     <i :class="this.src" id="icon"></i>
     <slot></slot>
-  </button>
+  </a>
 </template>
 
 <script>
 export default {
     props:{
         src: String,
+        href: String
     }
 }
 </script>
