@@ -6,12 +6,14 @@
             <div class="price">
                 <h2 class="price_value">R$ {{ this.price }}</h2>
                 <h3 class="price_portion"> em até 10x de R$ {{ calculatePrice() }}</h3>
+                <StarsRatting/>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import StarsRatting from '@/components/StarsRatting'
 export default {
     props: {
         url: String,
@@ -23,6 +25,10 @@ export default {
             let pricePerMonth = this.price / 10;
             return pricePerMonth.toFixed(2);
         }
+    }
+    ,
+    components:{
+        StarsRatting
     }
 }
 </script>
