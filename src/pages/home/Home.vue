@@ -48,7 +48,7 @@ export default {
   components:{
     NavBar,
     SearchBar,
-    CardProduct
+    CardProduct,
   }
 }
 </script>
